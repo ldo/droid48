@@ -48,7 +48,7 @@
 <!-- extension targets. Uncomment the ones where you want to do custom work
      in between standard targets -->
     <target name="-pre-build">
-        <exec executable="make"/>
+        <exec executable="${ndk.dir}/ndk-build"/>
     </target>
 <!--
     <target name="-pre-compile">
