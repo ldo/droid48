@@ -1,2 +1,6 @@
-/obj
-/libs
+/local.properties
+/keystore.properties
+/gen/
+/bin/
+/obj/
+/libs/
